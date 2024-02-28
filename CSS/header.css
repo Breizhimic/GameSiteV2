@@ -36,12 +36,12 @@ header {
   
   nav li a:hover {
     background-color: #555;
+    border-radius: 1em;
   }
   
   .logo {
-    margin-top: -3%;
-    margin-left: -50%;
-    width: 10%;
+    width: 3%;
+    padding-left: -10em;
   }
   
   
