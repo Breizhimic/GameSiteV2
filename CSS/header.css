@@ -44,3 +44,10 @@ header {
     width: 3%;
     padding-left: -10em;
   }
+
+  .titre {
+    text-align: center;
+    margin-top: 5px;
+    color:#ffff;
+    font-weight: bold;
+  }
