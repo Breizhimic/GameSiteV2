@@ -1,0 +1,171 @@
+<!DOCTYPE html "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <!--Icon-->
+    <link rel="icon" href="https://cdn.glitch.global/a37366a2-184f-489c-9974-51317d64021e/logo.gif?v=1681071272703">
+
+     <!--install ScrollTrigger-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+
+     <!-- install Gsap ScrollTrigger-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+     integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"
+     integrity="sha512-Q+G390ZU2qKo+e4q+kVcJknwfGjKJOdyu5mVMcR95NqL6XaF4lY4nsSvIVB3NDP54ACsS9rqhE1DVqgpApl//Q=="
+     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--install AwesomeFont-->
+    <script src="https://kit.fontawesome.com/2dd49550a9.js" crossorigin="anonymous"></script>
+
+    <!--link CSS-->
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style-acount.css">
+    <link rel="stylesheet" href="CSS/header.css">
+
+    <title>Sweater.fr</title>
+  </head>
+ <body>
+  <header>
+    <nav>
+      <ul>
+        <li class="left"><a href="index.html"><img src="https://cdn.glitch.global/a37366a2-184f-489c-9974-51317d64021e/logo.gif?v=1681071272703" class="logo"></a></li>
+        <li><a href="#">Lien 1</a></li>
+        <li><a href="#">Lien 2</a></li>
+        <li><a href="#">Lien 3</a></li>
+        <li class="right"><a href="panier.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+        <li class="right"><a href="login.html"><i class="fa-solid fa-circle-user"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="containerinfo">
+    <div class="titreinfo">
+      <a>Personal Information</a>
+    </div>
+    <div class="contenueinfo">
+      <div class="card-info">
+        <div class="input_container">
+          <label class="input_label">E-mail</label>
+          <input class="input_field" type="text" placeholder="clic to change">
+        </div>
+        <div class="input_container">
+          <label class="input_label">Phone number</label>
+          <input class="input_field" type="number" placeholder="clic to change">
+        </div>
+        <div class="input_container">
+          <label class="input_label">Username</label>
+          <input class="input_field" type="text" placeholder="clic to change">
+        </div>
+        <div class="input_container">
+          <label class="input_label">Password</label>
+          <input class="input_field" type="password" placeholder="clic to change">
+          <div class="bouton">
+            <button class="eye" style="cursor: pointer;">
+              <i class="fa-solid fa-eye" style="color: #62092d;"></i>
+            </button>
+          </div>
+        </div>
+        <div class="input_container">
+          <label class="input_label">Address</label>
+          <input class="input_field" type="text" placeholder="clic to change">
+        </div>
+      </div>
+      <a href="index.html">
+        <button class="checkout" style="cursor: pointer;">
+          <span>Save changes</span>
+        </button>
+      </a>
+    </div>
+  </div>
+  <div class="containermid">
+    <button class="containercommande" onclick="window.location.href='order.html'">
+      <div class="titrecommande">
+        My Order
+      </div>
+      <div class="contenuecommande">
+        Track, return or buy again
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="truck">
+          <i class="fa-solid fa-truck-fast fa-2xl" style="color: #42051d;"></i>
+        </div>
+      </div>
+    </button>
+    <button class="containera" onclick="window.location.href='index.html'">
+      <div class="titrea">
+        Contact Us
+      </div>
+      <div class="contenuea">
+        Contact our Customer Service by social media or email
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="headset">
+          <i class="fa-solid fa-headset fa-2xl" style="color: #42051d;"></i>
+        </div>
+      </div>
+    </button>
+  </div>  
+  <div class="containerleft">
+    <button class="containerb" onclick="window.location.href='index.html'">
+      <div class="titreb">
+        Our Partners
+      </div>
+      <div class="contenueb">
+        Click to see our different partners who helped us in our project !
+        <br>
+        <br>
+        <br>
+        <div class="partners">
+          <i class="fa-solid fa-handshake fa-2xl" style="color: #42051d;"></i>
+        </div>
+      </div>
+    </button>
+    <div class="containerc">
+      <div class="titrec">
+        Rate Us
+      </div>
+      <div class="contenuec">
+        Give us your opinion !
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <form>
+          <div class="rating">
+              <input type='radio' hidden name='rate' id='rating_5' data-idx='0'>	
+              <label for='rating_5'></label>
+          
+              <input type='radio' hidden name='rate' id='rating_4' data-idx='1'>
+              <label for='rating_4'></label>
+          
+              <input type='radio' hidden name='rate' id='rating_3' data-idx='2'>
+              <label for='rating_3'></label>
+          
+              <input type='radio' hidden name='rate' id='rating_2' data-idx='3'>
+              <label for='rating_2'></label>
+          
+              <input type='radio' hidden name='rate' id='rating_1' data-idx='4'>
+              <label for='rating_1'></label>
+          </div>
+        </form>
+        <button class="checkouta" style="cursor: pointer;">
+          <span>Save</span>
+        </button>
+      </div>
+    </div>
+  </div>
+ </body>
+</html>
