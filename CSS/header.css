@@ -1,53 +1,107 @@
 header {
-    background-color: #2b2e38;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50px
+  background-color: #2b2e38;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.title-container {
+  flex: 1; 
+  text-align: center; 
+}
+
+.user-container {
+  flex: 1; 
+  text-align: right; 
+}
+.user-container a{
+  color: #ffff;
+}
+
+.logo {
+  width: 50px; 
+}
+
+.titre {
+  color: #ffff;
+  font-weight: bold;
+}
+
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+
+nav li a {
+  display: block;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #555;
+  border-radius: 1em;
+}
+
+
+
+.logo-container a {
+  display: inline-block;
+  width: auto; 
+}
+
+.logo {
+  width: 100%; 
+  max-width: 50px;
+  height: auto; 
+}
+
+
+@media screen and (max-width: 768px) {
+  .logo-container, .title-container, .user-container {
+    flex: 1 1 auto; 
+    text-align: center; 
   }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+}
+
+
+@media screen and (max-width: 480px) {
+  .logo-container, .title-container, .user-container {
+    flex: 1 1 auto;
     text-align: center;
-    margin-top: 5px;
-    color:#ffff
   }
-  
-  nav li {
-    display: inline-block;
-  }
-  
-  nav li.left {
-    float: left;
-  }
-  
-  nav li.right {
-    float: right;
-  }
-  
-  nav li a {
-    display: block;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-  }
-  
-  nav li a:hover {
-    background-color: #555;
-    border-radius: 1em;
-  }
-  
+
   .logo {
-    width: 3%;
-    padding-left: -10em;
+    max-width: 30px; 
   }
 
   .titre {
-    text-align: center;
-    margin-top: 5px;
-    color:#ffff;
-    font-weight: bold;
+    font-size: 16px; 
   }
+}
+
