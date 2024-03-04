@@ -511,38 +511,35 @@ letter-spacing: -2px;
 }
 
 
+
+
 @media screen and (max-width: 768px) {
-  .containerinfo, .containermid, .containerleft {
-    width: 90%;
-    left: 50%;
-    top: 45%;
-    transform: translate(-50%, -50%);
+  .containerinfo {
+      width: 90%;
+      margin: 20px auto;
   }
-
-  .titreinfo, .titrea, .titreb, .titrec {
-    font-size: 1.2em;
+  .titreb,
+  .titrec {
+      font-size: 1.2em;
   }
-
-  .contenueinfo, .contenuea, .contenueb, .contenuec {
-    font-size: 1em;
+  .contenueb,
+  .contenuec {
+      font-size: 1em;
   }
-
 }
 
 @media screen and (max-width: 480px) {
-  .containerinfo, .containermid, .containerleft {
-    width: 100%; 
-    left: 50%;
-    top: 40%; 
-    transform: translate(-50%, -50%);
+  .container {
+      width: 100%;
   }
-
-  .titreinfo, .titrea, .titreb, .titrec {
-    font-size: 1em;
+  .titrea,
+  .titreb,
+  .titrec {
+      font-size: 1em;
   }
-
-  .contenueinfo, .contenuea, .contenueb, .contenuec {
-    font-size: 0.9em;
+  .contenuea,
+  .contenueb,
+  .contenuec {
+      font-size: 0.9em;
   }
-
 }
