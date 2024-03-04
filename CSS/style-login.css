@@ -169,3 +169,29 @@ body {
 .signin {
   margin-left: 70px;
 }
+
+
+@media (max-width: 768px) {
+  .login-box {
+      width: 80%;
+      padding: 20px;
+  }
+  .user-box input {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-box {
+      width: 90%;
+  }
+  .user-box input {
+      font-size: 12px;
+  }
+  .signin {
+      margin-left: 0;
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+  }
+}
