@@ -169,3 +169,48 @@ html {
   .login {
     margin-left: 70px;
   }
+
+
+
+
+@media (max-width: 768px) {
+  .containerinfo, .containermid, .containerleft {
+      width: 90%;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  .titreinfo, .containercommande, .containera, .containerb, .containerc {
+      width: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  .input_label {
+      font-size: 10px;
+  }
+  .login-box {
+    width: 80%;
+    padding: 20px;
+  }
+  .user-box input {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .containerinfo, .containermid, .containerleft {
+      width: 100%;
+  }
+  .titreinfo, .containercommande, .containera, .containerb, .containerc {
+      width: 100%;
+      padding: 20px;
+  }
+  .input_label {
+      font-size: 8px;
+  }
+  .login-box {
+    width: 90%;
+  }
+  .user-box input {
+    font-size: 12px;
+ }
+}

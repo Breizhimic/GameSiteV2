@@ -420,7 +420,6 @@ letter-spacing: -2px;
 
 .rating label {
   display: inline-block;
-  float: right;
   padding: 0;
   font-size: 50px;
   cursor: pointer;
@@ -512,3 +511,38 @@ letter-spacing: -2px;
 }
 
 
+@media screen and (max-width: 768px) {
+  .containerinfo, .containermid, .containerleft {
+    width: 90%;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+  }
+
+  .titreinfo, .titrea, .titreb, .titrec {
+    font-size: 1.2em;
+  }
+
+  .contenueinfo, .contenuea, .contenueb, .contenuec {
+    font-size: 1em;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .containerinfo, .containermid, .containerleft {
+    width: 100%; 
+    left: 50%;
+    top: 40%; 
+    transform: translate(-50%, -50%);
+  }
+
+  .titreinfo, .titrea, .titreb, .titrec {
+    font-size: 1em;
+  }
+
+  .contenueinfo, .contenuea, .contenueb, .contenuec {
+    font-size: 0.9em;
+  }
+
+}
