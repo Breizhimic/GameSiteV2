@@ -524,33 +524,42 @@ letter-spacing: -2px;
 
 
 
-@media screen and (max-width: 768px) {
-  .containerinfo {
-      width: 90%;
-      margin: 20px auto;
-  }
-  .titreb,
-  .titrec {
-      font-size: 1.2em;
-  }
-  .contenueb,
-  .contenuec {
-      font-size: 1em;
+
+
+@media screen and (max-width: 1024px) {
+  .containerinfo, .containermid, .containerleft {
+      width: 80%; 
+      left: 50%;
+      transform: translateX(-50%);
   }
 }
 
+
+@media screen and (max-width: 768px) {
+  .containerinfo, .containermid, .containerleft {
+      width: 90%; 
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  .containerinfo .titreinfo, .titrea, .titreb, .titrec {
+      font-size: 1.2em; 
+  }
+  .containerinfo .contenueinfo, .contenuea, .contenueb, .contenuec {
+      font-size: 1em; 
+  }
+}
+
+
 @media screen and (max-width: 480px) {
-  .container {
-      width: 100%;
+  .containerinfo, .containermid, .containerleft {
+      width: 100%; 
+      left: 50%;
+      transform: translateX(-50%);
   }
-  .titrea,
-  .titreb,
-  .titrec {
-      font-size: 1em;
+  .containerinfo .titreinfo, .titrea, .titreb, .titrec {
+      font-size: 1em; 
   }
-  .contenuea,
-  .contenueb,
-  .contenuec {
-      font-size: 0.9em;
+  .containerinfo .contenueinfo, .contenuea, .contenueb, .contenuec {
+      font-size: 0.9em; 
   }
 }
