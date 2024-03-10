@@ -14,4 +14,4 @@ function init(){
     message.innerHTML = "Le choix de l'odinateur est fait, à vous de cliquez sur votre choix...";
 }
 
-init();
+init()
