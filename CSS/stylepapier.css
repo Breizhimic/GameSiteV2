@@ -41,6 +41,7 @@ img{
     height: 20em;
     border: 2px solid rgba(0, 0, 0, 0);
     padding: 10px;
+    border-radius: 15px;
 }
 
 #containerChoix{
@@ -51,10 +52,11 @@ img{
 }
 
 #message{
-    max-width: 6em;
+    max-width: 60em;
     margin: 0  auto;
     padding-top: 4em;
     text-align: center;
-    font-size: 2em;
-
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
 }
