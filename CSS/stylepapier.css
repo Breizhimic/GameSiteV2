@@ -1,0 +1,60 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(#5e2754, #c42e2e);
+    line-height: 1.5; min-height: 100vh;
+}
+
+h1{
+    color: #ffff;
+    background-color: #31275e;
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1em 0em;
+}
+
+#bande{
+    background-color: #51275e;
+    height: 1.5;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#rejouer{
+    color: white;
+    font-weight: bold;
+    height: 100%;
+    background-color: transparent;
+    border-width: 0px;
+}
+
+#rejouer:hover{
+    color: rgb(255, 0, 0);
+    background-color: transparent;
+
+}
+
+img{
+    height: 20em;
+    border: 2px solid rgba(0, 0, 0, 0);
+    padding: 10px;
+}
+
+#containerChoix{
+    max-width: 60em;
+    margin: 0  auto;
+    padding-top: 4em;
+    text-align: center;
+}
+
+#message{
+    max-width: 6em;
+    margin: 0  auto;
+    padding-top: 4em;
+    text-align: center;
+    font-size: 2em;
+
+}
