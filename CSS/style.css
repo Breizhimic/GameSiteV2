@@ -40,3 +40,18 @@ body {
     border: none;
     color: #ffffff;
 }
+
+.logochif{
+    margin-top: -1em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: transparent
+}
+
+.titrechif{
+    background-color: transparent;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
