@@ -8,9 +8,9 @@ body {
     background: linear-gradient(#5e2754, #c42e2e);
   }
   
-  .game-container {
+.game-container {
     text-align: center;
-  }
+}
   
   canvas {
     border: 1px solid black;
