@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(#5e2754, #c42e2e);
+  }
+  
+  .game-container {
+    text-align: center;
+  }
+  
+  canvas {
+    border: 1px solid black;
+  }
+  
+#gameOverText{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: #FFFF;
+}
+
+.score{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: #FFFF;
+}
