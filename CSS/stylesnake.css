@@ -20,7 +20,9 @@ body {
     font-family: "Inter", sans-serif;
     font-weight: bold;
     color: #FFFF;
+    padding: 1em;
 }
+
 
 .score{
     font-family: "Inter", sans-serif;
