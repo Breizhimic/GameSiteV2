@@ -60,3 +60,21 @@ img{
     font-weight: bold;
     color: white;
 }
+
+@media screen and (max-width: 1023px) {
+    img{
+        height: 7.5em;
+        border: 2px solid rgba(0, 0, 0, 0);
+        padding: 10px;
+        border-radius: 15px;
+    }
+}
+
+@media screen and (max-width: 753px) {
+    img{
+        height: 7.5em;
+        border: 2px solid rgba(0, 0, 0, 0);
+        padding: 10px;
+        border-radius: 15px;
+    }
+}
