@@ -10,8 +10,8 @@ body {
 
 
 .containera {
-    height: 35em;
-    width: 35em;
+    height: 20em;
+    width: 20em;
     position: absolute;
     top: 50%;
     left: 20%;
@@ -26,8 +26,8 @@ body {
 }
 
 .containerb {
-    height: 35em;
-    width: 35em;
+    height: 20em;
+    width: 20em;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -42,8 +42,8 @@ body {
 }
 
 .containerc {
-    height: 35em;
-    width: 35em;
+    height: 20em;
+    width: 20em;
     position: absolute;
     top: 50%;
     left: 80%;
@@ -68,7 +68,7 @@ body {
 
 .titrechif{
     background-color: transparent;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     font-weight: bold;
 }
@@ -90,8 +90,8 @@ body {
 
 @media screen and (min-width: 1024px) {
     .containera, .containerb, .containerc {
-        width: 30em; 
-        height: 30em;
+        width: 20em; 
+        height: 20em;
     }
 }
 
@@ -103,8 +103,8 @@ body {
     }
 
     .containera {
-        height: 20em;
-        width: 20em;
+        height: 17.5em;
+        width: 17.5em;
         position: absolute;
         top: 20%;
         left: 50%;
@@ -119,8 +119,8 @@ body {
     }
     
     .containerb {
-        height: 20em;
-        width: 20em;
+        height: 17.5em;
+        width: 17.5em;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -135,8 +135,8 @@ body {
     }
     
     .containerc {
-        height: 20em;
-        width: 20em;
+        height: 17.5em;
+        width: 17.5em;
         position: absolute;
         top: 80%;
         left: 50%;
@@ -171,8 +171,8 @@ body {
         max-width: 100%; 
     }
     .containera {
-        height: 20em;
-        width: 20em;
+        height: 15em;
+        width: 15em;
         position: absolute;
         top: 20%;
         left: 50%;
@@ -187,8 +187,8 @@ body {
     }
     
     .containerb {
-        height: 20em;
-        width: 20em;
+        height: 15em;
+        width: 15em;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -203,8 +203,8 @@ body {
     }
     
     .containerc {
-        height: 20em;
-        width: 20em;
+        height: 15em;
+        width: 15em;
         position: absolute;
         top: 80%;
         left: 50%;
@@ -220,7 +220,7 @@ body {
 
     .titrechif{
         background-color: transparent;
-        font-size: 1em;
+        font-size: 0.75em;
         text-align: center;
         font-weight: bold;
     }
@@ -229,7 +229,13 @@ body {
 
 @media screen and (max-width: 479px) {
     .containera, .containerb, .containerc {
-        width: 15em; 
-        height: 15em; 
+        width: 10em; 
+        height: 10em; 
+    }
+    .titrechif{
+        background-color: transparent;
+        font-size: 0.5em;
+        text-align: center;
+        font-weight: bold;
     }
 }
