@@ -72,3 +72,62 @@ body {
     text-align: center;
     font-weight: bold;
 }
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    flex: 1 0 33%; 
+    max-width: 33%; 
+    box-sizing: border-box; 
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .containera, .containerb, .containerc {
+        width: 30em; 
+        height: 30em;
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+    .cell {
+        flex-basis: 50%; 
+        max-width: 50%;
+    }
+    .containera, .containerb, .containerc {
+        width: 30em; 
+        height: auto;
+        position: static;
+        margin: 20px auto; 
+        transform: none; 
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .containera, .containerb, .containerc {
+        width: 100%; 
+        max-width: 100%; 
+        height: auto;
+        margin: 20px auto; 
+    }
+    .cell {
+        flex-basis: 100%; 
+        max-width: 100%; 
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+    .containera, .containerb, .containerc {
+        width: 15em; 
+        height: 15em; 
+    }
+}
