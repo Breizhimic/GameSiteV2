@@ -10,13 +10,8 @@ body {
 
 
 .containera {
-<<<<<<< HEAD
     height: 20em;
     width: 20em;
-=======
-    height: 30em;
-    width: 30em;
->>>>>>> 75561c47186ea7e09006e5f9a3c7bd143b130087
     position: absolute;
     top: 50%;
     left: 20%;
@@ -31,13 +26,8 @@ body {
 }
 
 .containerb {
-<<<<<<< HEAD
     height: 20em;
     width: 20em;
-=======
-    height: 30em;
-    width: 30em;
->>>>>>> 75561c47186ea7e09006e5f9a3c7bd143b130087
     position: absolute;
     top: 50%;
     left: 50%;
@@ -52,13 +42,8 @@ body {
 }
 
 .containerc {
-<<<<<<< HEAD
     height: 20em;
     width: 20em;
-=======
-    height: 30em;
-    width: 30em;
->>>>>>> 75561c47186ea7e09006e5f9a3c7bd143b130087
     position: absolute;
     top: 50%;
     left: 80%;
