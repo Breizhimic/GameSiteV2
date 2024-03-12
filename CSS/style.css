@@ -10,8 +10,8 @@ body {
 
 
 .containera {
-    height: 35em;
-    width: 35em;
+    height: 30em;
+    width: 30em;
     position: absolute;
     top: 50%;
     left: 20%;
@@ -26,8 +26,8 @@ body {
 }
 
 .containerb {
-    height: 35em;
-    width: 35em;
+    height: 30em;
+    width: 30em;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -42,8 +42,8 @@ body {
 }
 
 .containerc {
-    height: 35em;
-    width: 35em;
+    height: 30em;
+    width: 30em;
     position: absolute;
     top: 50%;
     left: 80%;
@@ -68,7 +68,7 @@ body {
 
 .titrechif{
     background-color: transparent;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     font-weight: bold;
 }
