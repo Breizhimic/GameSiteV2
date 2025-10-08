@@ -13,7 +13,8 @@ body {
 }
   
   canvas {
-    border: 1px solid black;
+    border: 3px solid black;
+    background-color: #ffffff71;
   }
   
 #gameOverText{
@@ -21,6 +22,7 @@ body {
     font-weight: bold;
     color: #FFFF;
     padding: 1em;
+    
 }
 
 
@@ -28,4 +30,19 @@ body {
     font-family: "Inter", sans-serif;
     font-weight: bold;
     color: #FFFF;
+    background-color: #5e275489;  
+    border: 2px solid #FFFF;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+}
+
+.butStart{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: #FFFF;
+    background-color: #5e275489;  
+    border: 2px solid #FFFF;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    cursor: pointer;
 }
